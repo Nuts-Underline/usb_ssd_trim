@@ -1,9 +1,9 @@
 # usb_ssd_trim
-How to make possible to use trim/discard funtions on SSD connected via USB. As default trim not working in such case, its a long story about ATA, SCSI and USB. 
+How to make possible to use trim/discard functions on SSD connected via USB. Trim not working in such case by default: its a long story about ATA, SCSI and USB.... 
 
-There set of UDEV rules to enable trim/discard for usb connected SSDs with differnt USB-SATA/NVME controllers (Realtek, VIA, ASM)
+There is an set of UDEV rules to enable trim/discard for usb connected SSDs with differnt USB-SATA/NVME controllers (Realtek, VIA, ASM)
 
-file 50-usb-ssd-trim.rules must be placed to /etc/udev/rules.d
+File 50-usb-ssd-trim.rules must be placed to /etc/udev/rules.d
 
 then reload udev like 
 
