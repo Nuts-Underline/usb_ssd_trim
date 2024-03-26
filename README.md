@@ -5,7 +5,11 @@ Use on own risk only: some USB storage not handle trim correctly, even can be da
 
 tested on my own USB SSD drives 
 
-based on https://wiki.gentoo.org/wiki/Discard_over_USB
+based on 
+
+https://wiki.gentoo.org/wiki/Discard_over_USB
+
+https://askubuntu.com/questions/262154/trim-and-ssd-with-usb-3-0-enclosure-does-not-work-uasp-not-supported
 
 file 50-usb-ssd-trim.rules must be placed to /etc/udev/rules.d
 
@@ -16,3 +20,5 @@ udevadm control -R -S
 or
 
 service udev force-reload
+
+Commits are welcome. Please send only tested VID,PID
