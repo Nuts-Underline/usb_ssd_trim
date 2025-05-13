@@ -7,6 +7,7 @@ ACTION=="add|change", ATTRS{idVendor}=="174c", ATTRS{idProduct}=="2362", SUBSYST
 ACTION=="add|change", ATTRS{idVendor}=="2109", ATTRS{idProduct}=="0815", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
 ACTION=="add|change", ATTRS{idVendor}=="2109", ATTRS{idProduct}=="0715", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
 ACTION=="add|change", ATTRS{idVendor}=="152d", ATTRS{idProduct}=="0583", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
+ACTION=="add|change", ATTRS{idVendor}=="152d", ATTRS{idProduct}=="a583", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
 ACTION=="add|change", ATTRS{idVendor}=="152d", ATTRS{idProduct}=="0562", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
 ACTION=="add|change", ATTRS{idVendor}=="0578", ATTRS{idProduct}=="0578", SUBSYSTEM=="scsi_disk", ATTR{provisioning_mode}="unmap"
 
